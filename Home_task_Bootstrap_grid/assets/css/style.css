@@ -1,0 +1,152 @@
+.body {
+    margin: 0px;
+    background-color: rgb(14, 14, 14);
+}
+
+.nav-info {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    border-bottom: 1px solid white;
+    background-color: rgb(2, 47, 2);
+}
+
+.nav-info a {
+    margin-right: 15px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+.container-fluid {
+    margin-top: 110px;
+    padding: 0px;
+}
+
+.col-7,
+.col-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.text {
+    color: white;
+}
+
+
+.company {
+    background-color: rgb(12, 77, 12);
+    height: 150px;
+    display: flex;
+    text-align: center;
+    padding-top: 45px;
+    padding-left: 64px;
+}
+
+
+
+.nav-menyu {
+    width: 100%;
+    height: 150px;
+    font-size: 16px;
+    background-color: rgb(12, 77, 12);
+    display: flex;
+    text-align: right;
+}
+
+#about {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 350px;
+
+}
+
+.col-8,
+.col-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#about .text {
+    background-color: green;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .btn {
+    text-align: right;
+    margin-bottom: 35px;
+}
+
+#about .text h2 {
+    margin-top: 20px;
+}
+
+#about .text p {
+    margin-top: -30px;
+    margin-bottom: 1rem;
+    margin-left: 196px;
+}
+
+#about .image img {
+    width: 100%;
+    height: 360px;
+}
+
+#services .container {
+    background-color: darkgreen;
+    margin-top: 10px;
+    color: white;
+}
+
+#services .overview div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services .overview i {
+    margin-bottom: 10px;
+}
+
+#services .overview ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services .overview li {
+    display: flex;
+    align-items: center;
+}
+
+#services .overview li i {
+    margin-right: 5px;
+}
+
+#client .container {
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#client .container .partners img1 {
+    width: 100%;
+    height: 300px;
+
+}
+
+#client .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
